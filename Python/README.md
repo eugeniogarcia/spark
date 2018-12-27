@@ -19,7 +19,7 @@ counts = readme_file.flatMap(lambda line: line.split(" ")).map(lambda word: (wor
 //Returns the top ten
 counts.takeOrdered(10, key=lambda x: -x[1])
 
-## Ejemplo 3 (crea una collección de parejas)
+## Ejemplo 3 (crea una collecciÃ³n de parejas)
 //A Pythin array
 pairs = [(1, 1), (1, 2), (2, 3), (2, 4), (3, 0)] 
 //Creates a rdd pair based on the array
